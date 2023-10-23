@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil de Usuário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .profile {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .profile img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 2px solid black; /* Adiciona borda à imagem */
+        }
+        .user-info {
+            flex-grow: 1;
+            border: 2px solid black; /* Adiciona borda às informações do usuário */
+            padding: 10px; /* Espaçamento interno para as informações */
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="avatar.jpg" alt="Foto de Perfil">
+        <div class="user-info">
+            <h1>Nome do Usuário</h1>
+            <p><strong>Nome:</strong> John Doe</p>
+            <p><strong>Email:</strong> john.doe@example.com</p>
+            <p><strong>Idade:</strong> 30 anos</p>
+            <p><strong>Localização:</strong> Cidade, País</p>
+            <p><strong>Descrição:</strong> Esta é uma breve descrição do usuário.</p>
+            
+            <a href="editar_perfil.html">Editar Perfil</a>
+        </div>
+    </div>
+</body>
+</html>
