@@ -1,16 +1,15 @@
 body {
     flex-direction: column;
     margin: 0;
-    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    height: auto;
+    background-color: #f0f0f0;
 }
 
 .image-container {
-    margin: 1%;
     align-self: stretch;
-    overflow: hidden;
 }
 
 #stretch-image {
@@ -18,69 +17,55 @@ body {
     height: auto;
 }
 
-.card {
-    align-self: stretch;
-    align-items: center;
-    width: 100%; /* Estica o componente horizontalmente */
-    height: auto;
-    background-color: #f0f0f0; /* Cor de fundo (opcional) */
-    border: 1px solid #000; /* Borda (opcional) */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adicione uma sombra suave */
+.text-center{
+    text-align: center;
 }
 
-.card-content {
-    flex-direction: column;
-    padding: 20px; /* Adicione algum espaço interno para o conteúdo do card */
-    text-align: center; /* Centralize o conteúdo horizontalmente */
-}
-
-.texto-grande {
-    font-size: 40px; /* Define o tamanho da fonte para a classe texto-grande */
-}
-
-.cards_principais{
-    margin: 0;
-    margin-top: 20px;
-    padding: 0;
+.cards {
     display: flex;
+}
+
+.card {
+    margin: 10px;
     width: 100%;
-    height: auto;
-    align-self: stretch;
-    justify-content: space-between; /* Alinha os cards horizontalmente */
+    background-color: #f0f0f0;
+    border: 4px solid #b1b1b1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.cards_principais_content {
-    background-color: #f0f0f0; /* Cor de fundo opcional */
-    border: 1px solid #000; /* Borda (opcional) */
-    flex-direction: column;
-    margin: 20px;
-    width: 30%;
-    padding: 20px; /* Adicione algum espaço interno para o conteúdo do card */
-    text-align: center; /* Centralize o conteúdo horizontalmente */
+.card_text {
+    padding-left: 20px;
 }
 
-.img-principais{
-    width: 400px;
+.card_secundario {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-principais {
+    width: 100%;
     height: 400px;
 }
 
-.cards_secundarios{
-    margin: 0;
-    margin-top: 20px;
-    padding: 0;
-    display: flex;
-    width: 100%;
-    height: auto;
-    align-self: stretch;
-    justify-content: space-between; /* Alinha os cards horizontalmente */
+.img-secundarias {
+    width: 150px;
+    height: 150px;
 }
 
-.cards_secundarios_content{
-    margin: 20px;
-    background-color: #f0f0f0; /* Cor de fundo opcional */
-    border: 1px solid #000; /* Borda (opcional) */
-    flex-direction: column;
+.cards_secundarios {
+    margin-top: 20px;
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+.cards_secundarios_content {
+    display: flex;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
     width: 30%;
-    padding: 20px; /* Adicione algum espaço interno para o conteúdo do card */
-    text-align: center; /* Centralize o conteúdo horizontalmente */
+}
+
+.texto-secundario {
+    margin-left: 20px;
 }
